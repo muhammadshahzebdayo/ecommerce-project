@@ -1,0 +1,36 @@
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js dependencies
+**/node_modules/
+
+# PHP dependencies
+**/vendor/
+
+# Next.js generated files
+**/.next/
+**/out/
+
+# Build files
+**/build/
+**/dist/
+
+# Laravel generated files
+ecom-backend/storage/*.key
+ecom-backend/public/hot
+ecom-backend/public/storage
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
